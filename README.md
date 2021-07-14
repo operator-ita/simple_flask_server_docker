@@ -3,7 +3,6 @@
 ## Directory file
 ```
 .
-.
 ├── docker-compose.yml
 ├── .env
 ├── flask_app
