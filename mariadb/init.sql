@@ -12,6 +12,6 @@ CREATE TABLE IF NOT EXISTS Persons (
 IF NOT EXISTS ( SELECT 1 FROM Persons WHERE FirstName = 'John' AND LastName = 'Doe' )
 BEGIN
     INSERT INTO Persons (PersonID , LastName, FirstName, Address, City)
-    VALUES (1, 'Doe', 'John', '1178 Confederate Drive','NY');
+    VALUES (1, 'Doe', 'John', '1178 Confederate Drive','NY')
 END
 
