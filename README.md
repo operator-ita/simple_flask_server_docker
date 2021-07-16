@@ -1,4 +1,4 @@
-# Simple Flask App + MariaDB + Nginx + PhpMyAdmin 
+# Simple Flask App + Gunicorn + Nginx +  MariaDB + PhpMyAdmin 
 
 ## Directory file
 ```

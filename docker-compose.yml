@@ -1,4 +1,4 @@
-version: '3.9'
+version: "3.9"
 
 services:
   flask_app:
@@ -10,6 +10,9 @@ services:
     command: gunicorn -w 1 -b 0.0.0.0:8000 wsgi:server
     depends_on:
       - mariadb
+    # Just for dev use the line bellow
+    volumes:
+      - ./flask_app:/usr/src/app/
 
   nginx:
     container_name: nginx
